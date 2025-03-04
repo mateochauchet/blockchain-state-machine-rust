@@ -69,11 +69,6 @@ mod tests {
 
     #[test]
     fn transfer_balance() {
-        /* TODO: Create a test that checks the following:
-            - That `alice` cannot transfer funds she does not have.
-            - That `alice` can successfully transfer funds to `bob`.
-            - That the balance of `alice` and `bob` is correctly updated.
-        */
         let mut balances = Pallet::new();
 
         let alice = "alice".to_string();
